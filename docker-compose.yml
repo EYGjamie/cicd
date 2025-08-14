@@ -1,6 +1,6 @@
 services:
   myapp:
-    image: ghcr.io/<dein-github-user-oder-org>/myapp:${IMAGE_TAG}
+    image: ghcr.io/EYGjamie/myapp:${IMAGE_TAG}
     restart: unless-stopped
     ports:
       - "8080:8080"
